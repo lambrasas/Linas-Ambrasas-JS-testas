@@ -1,0 +1,62 @@
+body{
+    color: white;
+    background: #242a38;
+}
+body h1{
+    text-align: center;
+}
+#tableHeader{
+    margin-bottom: 10px;
+}
+#tableHeader, .skillRow {
+    display: flex;
+    justify-content: space-between; /* Distribute space evenly between the elements */
+    align-items: center;
+}
+.skillRow > div {
+    flex: 1; 
+    text-align: left;
+}
+.skillRow:nth-child(2n){
+    background: #1d232f;
+    padding: 20px 0;
+
+}
+#tableHeader >div{
+    flex: 1; 
+    text-align: left;
+    font-size: 20px;
+}
+.skillRow div{
+    text-align: start;
+    justify-content: flex-start;
+    display: flex;
+    align-items: flex-start;
+    font-size: 20px;
+}
+.addSkillButton a{
+    color: white;
+    text-decoration: none;
+}
+.addSkillButton{
+    background-color: #191e27;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+#tableHeader{
+    border-bottom: 1px solid white;
+}
+.deleteButton{
+    color: #71abff;
+    background: none;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+#tableContentContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

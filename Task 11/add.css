@@ -1,0 +1,38 @@
+body{
+    color: white;
+    background: #242a38;
+}
+.viewSkillsButton a{
+    text-decoration: none;
+    color: white;
+}
+.viewSkillsButton{
+    background-color: #191e27;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#submitButton{
+    background-color: #191e27;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+#input{
+    background:#191e27 ;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+}
